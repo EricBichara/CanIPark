@@ -1,0 +1,20 @@
+{
+  "name": "CanIPark",
+  "version": "0.0.0",
+  "authors": [
+    "ericbichara <eric.bichara@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-google-maps": "~1.1.8"
+  }
+}
