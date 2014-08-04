@@ -1,9 +1,17 @@
 <ion-view title="Can I Park Search">
     <ion-content>
-        <google-map center="map.center" zoom="map.zoom" draggable="true"></google-map>
+        <google-map center="map.center" zoom="map.zoom" draggable="true">
+            <marker coords="map.marker"
+                    options="map.options"
+                    idKey="map.idKey"
+                    events="map.events">
+            </marker>
+        </google-map>
         <panel title="Info">
             <label>{{position}}</label>
         </panel>
-        <panel title="Extra Info"></panel>
+        <panel title="Extra Info">
+            <label>{{extraInfo}}</label>
+        </panel>
     </ion-content>
 </ion-view>ionic
